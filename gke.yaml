@@ -15,8 +15,8 @@ spec:
         app: gke
     spec:
       containers:
-      - image: flask
-        name: gcr.io/kodekloud-gcp-training/test-gcp-devops:latest
+      - image: test-deploy
+        name: nginx
         ports:
         - containerPort: 5000
         env:
