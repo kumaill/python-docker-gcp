@@ -15,8 +15,8 @@ spec:
         app: gke
     spec:
       containers:
-      - image: test-deploy
-        name: nginx
+      - image: gcp-devops-gke
+        name: gcr.io/updater-280719/gcpdevops:latest
         ports:
         - containerPort: 5000
         env:
