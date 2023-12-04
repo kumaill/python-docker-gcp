@@ -9,4 +9,5 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=python312
-  - --entrypoint hello_world
+  - --entry-point
+  - hello_world
