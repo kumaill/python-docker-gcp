@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Docker using new flask app on Cloud Function1'
+    return 'Hello, Docker using new flask app on Cloud Function1_updated'
 
 if __name__ == "__main__":
     app.run(debug=True)

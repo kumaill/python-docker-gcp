@@ -4,7 +4,7 @@ steps:
   - gcloud
   - functions
   - deploy
-  - cloudFuncFlaskTest
+  - cloudFuncFlaskTest2
   - --region=australia-southeast1
   - --source=./deploy2/
   - --trigger-http
