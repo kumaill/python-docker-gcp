@@ -6,7 +6,7 @@ steps:
   - deploy
   - cloudFuncFlaskTest
   - --region=australia-southeast1
-  - --source=.
+  - --source=./deploy2/
   - --trigger-http
   - --runtime=python312
   - --entry-point
